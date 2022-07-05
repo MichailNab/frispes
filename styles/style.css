@@ -834,6 +834,31 @@ footer {
 	.spaces-hover {
 		display: none;
 	}
+	.about {
+		grid-template-rows: auto;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas:
+		'rooms events'
+		'countries wifi'
+		'startup communities'
+		'sidebar sidebar';
+}
+.company {
+	flex-wrap: wrap;
+}
+.company-item {
+	flex: 0 50%;
+}
+.company__img {
+	max-width: 100px;
+}
+.help {
+	flex-direction: column;
+		max-width: 400px;
+		margin: 26px auto;
+}
+.help-item {
+	margin-bottom: 30px;
 }
 @media (max-width: 576px) {
 	.title__h1 {
@@ -854,4 +879,9 @@ footer {
 	.form {
 		padding: 20px 15px;
 	}
+}
+.page-blog {
+	flex-direction: column;
+	max-width: 300px;
+	margin: 26px auto;
 }
