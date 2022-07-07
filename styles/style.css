@@ -892,6 +892,6 @@ footer {
 .footer{
 	grid-template-columns: repeat(1, 1fr);
 }
-._footer-main {
+.footer-main {
 	grid-column: 1 / 3;	
 }
