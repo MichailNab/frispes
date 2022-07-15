@@ -880,8 +880,10 @@ footer {
 	margin-bottom: 30px;
 }
 .member-item.member-item--img {
+	margin-top: 60px;
 	padding-right: 0px;
 	padding-bottom: 0px;
+	
 }
 .page-member {
 	padding-bottom:60px;
@@ -985,7 +987,7 @@ footer {
 	padding: 15px 60px;
 }
 .page-member {
-	padding-bottom:20px;
+	padding-bottom:60px;
 }
 .footer{
 	margin-left: 20px;
